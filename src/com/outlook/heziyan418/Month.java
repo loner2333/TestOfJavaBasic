@@ -36,4 +36,8 @@ public enum Month {
     public String getName() {
         return name;
     }
+
+    public String getShortName() {
+        return name.substring(0, 3);
+    }
 }
